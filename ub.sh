@@ -46,9 +46,15 @@ clear
 
 echo Starting gnome 40 installation
 
+sudo apt update
+
+sudo apt upgrade -y
+
 sudo add-apt-repository ppa:shemgp/gnome-40
 
 sudo apt update
+
+sudo apt upgrade -y
 
 sudo apt install mutter -y
 
