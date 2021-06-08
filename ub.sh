@@ -42,6 +42,16 @@ sudo rm -rf /var/lib/dpkg/info/postfix.postinst
 
 sudo apt upgrade -y
 
+sudo add-apt-repository ppa:shemgp/gnome-40
+
+sudo apt install mutter -y
+
+sudo apt install gnome-shell -y
+
+sudo apt install gnome-session -y
+
+sudo apt install gnome -y
+
 echo Finished. Rebooting the system.
 
 sudo reboot -f
