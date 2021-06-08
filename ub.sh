@@ -48,6 +48,8 @@ echo Starting gnome 40 installation
 
 sudo add-apt-repository ppa:shemgp/gnome-40
 
+sudo apt update
+
 sudo apt install mutter -y
 
 sudo apt install gnome-shell -y
